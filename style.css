@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -14.1vh;
+    z-index: -1;
+}
+
+.burgerMenu {
+    width: 100vw;
+    height: 12vh;
+    background-color: red;
+    position: fixed;
+    border-radius: 0px 0 px 0px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /*il faut leur donner un espace */
+    position: fixed;
+    z-index: 1;
+
+}
+
+.logo {
+    width: 5%;
+    height: 85%;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+
+}
+
+.burgerMenuLien {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 10px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.jourNuit {
+    bottom: 50px;
+    left: 30px;
+    font-size: 15px;
+    background-color: #ab262a;
+    border: 0;
+    border-radius: 35px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    outline: 0;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.jourNuit:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+.jourNuit:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .jourNuit {
+        padding: 10px 42px;
+    }
+}
+
+.intro {
+    width: 100vw;
+    height: 80vh;
+    padding-top: 22vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.nomPrenom {
+    position: absolute;
+    font-size: 50px;
+    top: 210px;
+    left: 30px;
+}
+
+.metier {
+    position: absolute;
+    font-size: 16px;
+    top: 260px;
+    left: 35px;
+
+}
+
+.presentation {
+    position: absolute;
+    font-size: 17px;
+    left: 30px;
+    bottom: 190px;
+    font: size 22px;
+
+}
+
+.boutton {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-size: 15px;
+    background-color: #ab262a;
+    border: 0;
+    border-radius: 35px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    outline: 0;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.boutton:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+.boutton:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .boutton {
+        padding: 10px 42px;
+    }
+}
+
+.pageAProposDeMoi {
+    width: 100vw;
+    height: 86vh;
+    background-color: cadetblue;
+    display: flex;
+
+}
+
+.pagePersogauche {
+    height: 100%;
+    width: 50%;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.pagePersoDroite {
+    height: 100%;
+    width: 50%;
+    background-color: silver;
+}
+
+.haut {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+.bas {
+    height: 48%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.basGauche {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.basDroite {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(91, 35, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.ligne {
+    width: 20px;
+}
+
+.infoMoi {
+    display: flex;
+}
+
+.pageExperiensse {
+    width: 100vw;
+    height: 86vh;
+    background-color: #1b0b8d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.formation {
+    width: 40%;
+    height: 85%;
+    background-color: rgb(135, 71, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Experiensse {
+    width: 95%;
+    height: 30%;
+    background-color: white;
+}
+
+.employ {
+    width: 40%;
+    height: 85%;
+    background-color: rgb(83, 54, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.job {
+    width: 95%;
+    height: 40%;
+    background-color: white;
+}
+
+.pageProjet {
+    width: 100vw;
+    height: 86vh;
+    background-color: rgb(90, 81, 81);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lesProjetFais {
+    height: 60%;
+    width: 85%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projet {
+    height: 95%;
+    width: 30%;
+    background-color: white;
+
+}
+
+.contact {
+    height: 86vh;
+    width: 100vw;
+    background-color: rgba(26, 107, 44, 0.848);
+}
