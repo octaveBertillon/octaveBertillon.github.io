@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -55,12 +56,12 @@ body {
 .links {
   text-decoration: none;
   color: white;
-  font-family: sans-serif;
+  font-family: "Protest Revolution", sans-serif;
 }
 
 .jourNuit {
-  bottom: 50px;
-  left: 30px;
+  bottom: 0px;
+  left: 0px;
   font-size: 15px;
   background-color: #ab262a;
   border: 0;
@@ -68,8 +69,7 @@ body {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-  font-weight: 600;
+  font-family: "Protest Revolution", sans-serif;
   outline: 0;
   padding: 5px 10px;
   text-align: center;
@@ -78,6 +78,8 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  position: relative;
+
 }
 
 .jourNuit:before {
@@ -85,13 +87,14 @@ body {
   background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
   border-radius: 125px;
   content: "";
-  height: 50%;
-  left: 4%;
+  height: 100%;
+  bottom: 60px;
+  left: 0px;
   opacity: .5;
   position: absolute;
-  top: 0;
+  top: 0px;
   transition: all .3s;
-  width: 92%;
+  width: 100%;
 }
 
 .jourNuit:hover {
@@ -120,6 +123,7 @@ body {
   font-size: 85px;
   top: 175px;
   left: 30px;
+  font-family: "Protest Revolution", sans-serif;
 }
 
 .metier {
@@ -127,6 +131,7 @@ body {
   font-size: 33px;
   top: 265px;
   left: 35px;
+  font-family: "Protest Revolution", sans-serif;
 
 }
 
@@ -135,6 +140,7 @@ body {
   font-size: 17px;
   left: 30px;
   bottom: 190px;
+  font-family: "Protest Revolution", sans-serif;
 }
 
 .boutton {
@@ -143,12 +149,12 @@ body {
   left: 30px;
   font-size: 15px;
   background-color: #ab262a;
-  border: 0;
+  border: 0px;
   border-radius: 35px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-family: "Protest Revolution", sans-serif;
   font-weight: 600;
   outline: 0;
   padding: 5px 10px;
@@ -528,7 +534,7 @@ form .form-row .textarea {
   .presentation {
     left: 20px;
     bottom: 140px;
-    font: size 22px;
+    font-size:  22px;
   
   }
 
