@@ -132,8 +132,6 @@
   font-size: 17px;
   left: 30px;
   bottom: 190px;
-  font: size 22px;
-
 }
 
 .boutton {
@@ -187,7 +185,7 @@
 .pageAProposDeMoi {
   width: 100vw;
   height: 86vh;
-  background-color: cadetblue;
+  background-color: white;
   display: flex;
 
 }
@@ -195,7 +193,7 @@
 .pagePersogauche {
   height: 100%;
   width: 50%;
-  border-color: blue;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,6 +213,9 @@
   align-items: center;
   background-color: rgb(241, 234, 234);
 }
+.textePresentation {width: 80%;
+  margin-top: 20px;
+}
 
 .bas {
   height: 50%;
@@ -227,7 +228,6 @@
 .basGauche {
   height: 100%;
   width: 50%;
-  background-color: red;
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -238,7 +238,6 @@
 .basDroite {
   height: 100%;
   width: 50%;
-  background-color: rgb(91, 35, 35);
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -499,7 +498,56 @@ form .form-row .textarea {
   z-index: 2;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 767px) {
+
+  .nomPrenom {
+    font-size: 25px;
+    left: 20px;
+
+  }
+  .metier {
+    top: 220px;
+    left: 20px;
+    font-size: 20px;
+  }
+  .presentation {
+    left: 20px;
+    bottom: 140px;
+    font: size 22px;
+  
+  }
+
+  .pageAProposDeMoi {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  }
+  .pagePersogauche {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .pagePersoDroite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+  }
+  .pageExperiensse {
+    height: 100%;
+  }
+
+  }
+  .pageExperiensse {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .container .text {
     font-size: 30px;
   }
@@ -519,4 +567,3 @@ form .form-row .textarea {
   .submit-btn .input-data {
     width: 40% !important;
   }
-}
