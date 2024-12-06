@@ -509,15 +509,18 @@ form .form-row .textarea {
 
 @media screen and (max-width: 767px) {
   .logo {
-    width: 90px;
+    width: 75px;
     height: auto;
+    top: 20px;
   }
   .burgerMenuLien {
     width: 75%;
     margin-right: 0px;
+    font-size: small;
   }
   .jourNuit {
     font-size: 8px;
+    top: -1px;
 
   }
 
