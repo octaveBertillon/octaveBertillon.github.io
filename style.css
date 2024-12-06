@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 
 #background-video {
   height: 100vh;
@@ -499,6 +502,18 @@ form .form-row .textarea {
 }
 
 @media screen and (max-width: 767px) {
+  .logo {
+    width: 90px;
+  }
+  .burgerMenuLien {
+    width: 75%;
+    margin-right: 0px;
+  }
+  .jourNuit {
+    font-size: 8px;
+
+  }
+
 
   .nomPrenom {
     font-size: 25px;
@@ -537,21 +552,36 @@ form .form-row .textarea {
     margin-top: 20px;
     
   }
-  .pageExperiensse {
-    height: 100%;
-  }
 
-  }
   .pageExperiensse {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    height: 100%;
+  }
+  .formation {
+    width: 80%;
+
+  }
+  .employ {
+    width: 80%;
+  }
+  .pageProjet {
+    height: auto;
+  }
+  .lesProjetFais {
+    flex-direction: column;
+  }
+  .projet {
+    width: 100%;
   }
   .container .text {
     font-size: 30px;
   }
-
+.container {
+  width: 100%;
+}
   .container form {
     padding: 10px 0 0 0;
   }
@@ -567,3 +597,4 @@ form .form-row .textarea {
   .submit-btn .input-data {
     width: 40% !important;
   }
+}
