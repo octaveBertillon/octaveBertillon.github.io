@@ -194,7 +194,7 @@ html {scroll-behavior: smooth;}
 .pageAProposDeMoi {
   width: 100vw;
   height: 86vh;
-  background-color: white;
+  background-color: red;
   display: flex;
 
 }
@@ -202,7 +202,7 @@ html {scroll-behavior: smooth;}
 .pagePersogauche {
   height: 100%;
   width: 50%;
-  
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +211,7 @@ html {scroll-behavior: smooth;}
 .pagePersoDroite {
   height: 100%;
   width: 50%;
-  background-color: silver;
+  background-color: red;
 }
 
 .haut {
@@ -220,7 +220,7 @@ html {scroll-behavior: smooth;}
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(241, 234, 234);
+  background-color: red(241, 234, 234);
 }
 .textePresentation {width: 80%;
   margin-top: 20px;
@@ -229,7 +229,7 @@ html {scroll-behavior: smooth;}
 .bas {
   height: 50%;
   width: 100%;
-  background-color: white;
+  background-color: red;
   display: flex;
   flex-wrap: wrap;
 }
@@ -256,7 +256,7 @@ html {scroll-behavior: smooth;}
 .ligne {
   width: 52px;
   height: 2px;
-  background-color: black;
+  background-color: red;
 }
 
 .infoMoi {
@@ -266,7 +266,7 @@ html {scroll-behavior: smooth;}
 .pageExperiensse {
   width: 100vw;
   height: 86vh;
-  background-color: #1b0b8d;
+  background-color: red;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -276,7 +276,7 @@ html {scroll-behavior: smooth;}
 .formation {
   width: 40%;
   height: 85%;
-  background-color: rgb(135, 71, 71);
+  background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -286,13 +286,13 @@ html {scroll-behavior: smooth;}
 .Experiensse {
   width: 95%;
   height: 30%;
-  background-color: white;
+  background-color: red;
 }
 
 .employ {
   width: 40%;
   height: 85%;
-  background-color: rgb(83, 54, 54);
+  background-color: red;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -302,13 +302,13 @@ html {scroll-behavior: smooth;}
 .job {
   width: 95%;
   height: 40%;
-  background-color: white;
+  background-color: red;
 }
 
 .pageProjet {
   width: 100vw;
   height: 86vh;
-  background-color: rgb(90, 81, 81);
+  background-color: red;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -318,7 +318,7 @@ html {scroll-behavior: smooth;}
 .lesProjetFais {
   height: 60%;
   width: 85%;
-  background-color: black;
+  background-color: red;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -327,14 +327,33 @@ html {scroll-behavior: smooth;}
 .projet {
   height: 95%;
   width: 30%;
-  background-color: white;
+  background-color: red;
   display: flex;
   flex-direction: column;
   gap: 10%;
   padding: 2%;
 
 }
-
+.projet1{
+  height: 95%;
+  width: 30%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  padding: 2%;
+  visibility: hidden;
+}
+.projet3{
+  height: 95%;
+  width: 30%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  padding: 2%;
+visibility: hidden;
+}
 .projetImag {
   height: 35%;
   width: 100%;
@@ -343,7 +362,7 @@ html {scroll-behavior: smooth;}
 .projetCodeLogo {
   width: 100%;
   height: 20%;
-  background-color: violet;
+  background-color: red;
 }
 
 .logoCss {
@@ -354,7 +373,7 @@ html {scroll-behavior: smooth;}
 .contact {
   height: 86vh;
   width: 100vw;
-  background-color: rgba(26, 107, 44, 0.848);
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -376,7 +395,7 @@ html {scroll-behavior: smooth;}
 
 .container {
   max-width: 800px;
-  background: #fff;
+  background: red;
   width: 800px;
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -388,7 +407,7 @@ html {scroll-behavior: smooth;}
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
-  -webkit-background-clip: text;
+  -webkit-background-clip : text ;
   -webkit-text-fill-color: transparent;
 }
 
@@ -447,7 +466,7 @@ form .form-row .textarea {
 .textarea label {
   width: 100%;
   bottom: 40px;
-  background: #fff;
+  background: red;
 }
 
 .input-data .underline {
